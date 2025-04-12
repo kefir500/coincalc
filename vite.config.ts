@@ -7,6 +7,7 @@ import faviconPlugin from './plugins/favicon';
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/coincalc/',
   plugins: [
     vue(),
     vueDevTools(),
@@ -14,6 +15,7 @@ export default defineConfig({
     faviconPlugin('src/assets/logo.svg', {
       appName: 'CoinCalc',
       appDescription: undefined,
+      path: '/coincalc/',
       background: '#f4eab4',
       theme_color: '#f4eab4',
       icons: {
