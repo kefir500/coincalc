@@ -1,0 +1,64 @@
+{
+  "title": "Kazakhstani Tenge",
+  "country": "Kazakhstan",
+  "code": "KZT",
+  "symbol": "₸",
+  "coins": [
+    {
+      "label": "200₸",
+      "value": 200,
+      "diameter": 26000,
+      "thickness": 1900,
+      "mass": 7500
+    },
+    {
+      "label": "100₸",
+      "value": 100,
+      "diameter": 24500,
+      "thickness": 1950,
+      "mass": 6650
+    },
+    {
+      "label": "50₸",
+      "value": 50,
+      "diameter": 23000,
+      "thickness": 1600,
+      "mass": 4700
+    },
+    {
+      "label": "20₸",
+      "value": 20,
+      "diameter": 18270,
+      "thickness": 1600,
+      "mass": 2900
+    },
+    {
+      "label": "10₸",
+      "value": 10,
+      "diameter": 19560,
+      "thickness": 1450,
+      "mass": 2810
+    },
+    {
+      "label": "5₸",
+      "value": 5,
+      "diameter": 17270,
+      "thickness": 1450,
+      "mass": 2180
+    },
+    {
+      "label": "2₸",
+      "value": 2,
+      "diameter": 16000,
+      "thickness": 1400,
+      "mass": 1840
+    },
+    {
+      "label": "1₸",
+      "value": 1,
+      "diameter": 15000,
+      "thickness": 1400,
+      "mass": 1630
+    }
+  ]
+}

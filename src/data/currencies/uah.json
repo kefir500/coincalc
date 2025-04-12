@@ -1,0 +1,66 @@
+{
+  "title": "Ukrainian Hryvnia",
+  "country": "Ukraine",
+  "code": "UAH",
+  "symbol": "₴",
+  "coins": [
+    {
+      "label": "₴10",
+      "value": 10,
+      "diameter": 23500,
+      "thickness": 2300,
+      "mass": 6400
+    },
+    {
+      "label": "₴5",
+      "value": 5,
+      "diameter": 22100,
+      "thickness": 2000,
+      "mass": 5200
+    },
+    {
+      "label": "₴2",
+      "value": 2,
+      "diameter": 20200,
+      "thickness": 1800,
+      "mass": 4000
+    },
+    {
+      "label": "₴1 (2018)",
+      "value": 1,
+      "diameter": 18900,
+      "thickness": 1800,
+      "mass": 3300
+    },
+    {
+      "label": "₴1 (2004)",
+      "value": 1,
+      "diameter": 26000,
+      "thickness": 1850,
+      "mass": 6800
+    },
+    {
+      "label": "₴1 (1997)",
+      "value": 1,
+      "diameter": 26000,
+      "thickness": 1850,
+      "mass": 6900
+    },
+    {
+      "label": "50 kopiykas",
+      "value": 0.5,
+      "denomination": 50,
+      "diameter": 23000,
+      "thickness": 1550,
+      "mass": 4200
+    },
+    {
+      "label": "10 kopiykas",
+      "value": 0.1,
+      "denomination": 10,
+      "diameter": 16300,
+      "thickness": 1250,
+      "mass": 1700
+    }
+  ]
+}

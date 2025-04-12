@@ -1,0 +1,70 @@
+{
+  "title": "Euro",
+  "country": "European Union",
+  "code": "EUR",
+  "symbol": "€",
+  "coins": [
+    {
+      "label": "€2",
+      "value": 2,
+      "diameter": 25750,
+      "thickness": 2200,
+      "mass": 8500
+    },
+    {
+      "label": "€1",
+      "value": 1,
+      "diameter": 23250,
+      "thickness": 2330,
+      "mass": 7500
+    },
+    {
+      "label": "50c",
+      "value": 0.5,
+      "denomination": 50,
+      "diameter": 24250,
+      "thickness": 2380,
+      "mass": 7800
+    },
+    {
+      "label": "20c",
+      "value": 0.2,
+      "denomination": 20,
+      "diameter": 22250,
+      "thickness": 2140,
+      "mass": 5740
+    },
+    {
+      "label": "10c",
+      "value": 0.1,
+      "denomination": 10,
+      "diameter": 19750,
+      "thickness": 1930,
+      "mass": 4100
+    },
+    {
+      "label": "5c",
+      "value": 0.05,
+      "denomination": 5,
+      "diameter": 21250,
+      "thickness": 1670,
+      "mass": 3920
+    },
+    {
+      "label": "2c",
+      "value": 0.02,
+      "denomination": 2,
+      "diameter": 18750,
+      "thickness": 1670,
+      "mass": 3060
+    },
+    {
+      "label": "1c",
+      "value": 0.01,
+      "denomination": 1,
+      "diameter": 16250,
+      "thickness": 1670,
+      "mass": 2300
+    }
+  ]
+}

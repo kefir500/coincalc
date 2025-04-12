@@ -1,0 +1,35 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-*: initial;
+  --color-primary: #f4d03e;
+  --color-content: #54544c;
+  --color-background: #f7f7f0;
+  --color-input: #edebda;
+  --color-error: #de6c1b;
+}
+
+.input {
+  @apply bg-input w-full py-3 px-3 my-1 rounded-md disabled:opacity-40 ring-2 ring-primary/0 focus:ring-primary/50 focus:outline-none transition;
+}
+
+@keyframes wheel-96 {
+  from {
+    opacity: 0;
+    transform: translateX(-60px) rotate(-71.6deg);
+  }
+}
+
+@keyframes wheel-128 {
+  from {
+    opacity: 0;
+    transform: translateX(-60px) rotate(-53.7deg);
+  }
+}
+
+@keyframes wheel-192 {
+  from {
+    opacity: 0;
+    transform: translateX(-60px) rotate(-35.8deg);
+  }
+}

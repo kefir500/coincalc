@@ -1,0 +1,48 @@
+{
+  "title": "United States Dollar",
+  "country": "United States",
+  "code": "USD",
+  "symbol": "$",
+  "coins": [
+    {
+      "label": "50¢",
+      "value": 0.5,
+      "denomination": 50,
+      "diameter": 30610,
+      "thickness": 2150,
+      "mass": 11340
+    },
+    {
+      "label": "25¢",
+      "value": 0.25,
+      "denomination": 25,
+      "diameter": 24260,
+      "thickness": 1750,
+      "mass": 5670
+    },
+    {
+      "label": "10¢",
+      "value": 0.1,
+      "denomination": 10,
+      "diameter": 17910,
+      "thickness": 1350,
+      "mass": 2268
+    },
+    {
+      "label": "5¢",
+      "value": 0.05,
+      "denomination": 5,
+      "diameter": 21210,
+      "thickness": 1950,
+      "mass": 5000
+    },
+    {
+      "label": "1¢",
+      "value": 0.01,
+      "denomination": 1,
+      "diameter": 19050,
+      "thickness": 1520,
+      "mass": 2500
+    }
+  ]
+}

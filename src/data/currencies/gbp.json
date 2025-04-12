@@ -1,0 +1,102 @@
+{
+  "title": "United Kingdom Sterling",
+  "country": "United Kingdom",
+  "code": "GBP",
+  "symbol": "£",
+  "coins": [
+    {
+      "label": "£2",
+      "value": 2,
+      "diameter": 28400,
+      "thickness": 2500,
+      "mass": 12000
+    },
+    {
+      "label": "£1",
+      "value": 1,
+      "diameter": 23030,
+      "thickness": 2800,
+      "mass": 8750
+    },
+    {
+      "label": "50p",
+      "value": 0.5,
+      "denomination": 50,
+      "diameter": 27300,
+      "thickness": 1780,
+      "mass": 8000
+    },
+    {
+      "label": "20p",
+      "value": 0.2,
+      "denomination": 20,
+      "diameter": 21400,
+      "thickness": 1700,
+      "mass": 5000
+    },
+    {
+      "label": "10p (2012)",
+      "value": 0.1,
+      "denomination": 10,
+      "diameter": 24500,
+      "thickness": 2050,
+      "mass": 6500
+    },
+    {
+      "label": "10p (1992)",
+      "value": 0.1,
+      "denomination": 10,
+      "diameter": 24500,
+      "thickness": 1850,
+      "mass": 6500
+    },
+    {
+      "label": "5p (2012)",
+      "value": 0.05,
+      "denomination": 5,
+      "diameter": 18000,
+      "thickness": 1890,
+      "mass": 3250
+    },
+    {
+      "label": "5p (1990)",
+      "value": 0.05,
+      "denomination": 5,
+      "diameter": 18000,
+      "thickness": 1700,
+      "mass": 3250
+    },
+    {
+      "label": "2p (1992)",
+      "value": 0.02,
+      "denomination": 2,
+      "diameter": 25900,
+      "thickness": 2030,
+      "mass": 7120
+    },
+    {
+      "label": "2p (1971)",
+      "value": 0.02,
+      "denomination": 2,
+      "diameter": 25900,
+      "thickness": 1850,
+      "mass": 7120
+    },
+    {
+      "label": "1p (1992)",
+      "value": 0.01,
+      "denomination": 1,
+      "diameter": 20300,
+      "thickness": 1650,
+      "mass": 3560
+    },
+    {
+      "label": "1p (1971)",
+      "value": 0.01,
+      "denomination": 1,
+      "diameter": 20300,
+      "thickness": 1520,
+      "mass": 3560
+    }
+  ]
+}

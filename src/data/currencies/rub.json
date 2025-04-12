@@ -1,0 +1,68 @@
+{
+  "title": "Russian Ruble",
+  "country": "Russia",
+  "code": "RUB",
+  "symbol": "₽",
+  "coins": [
+    {
+      "label": "10₽",
+      "value": 10,
+      "diameter": 22000,
+      "thickness": 2200,
+      "mass": 5640
+    },
+    {
+      "label": "5₽",
+      "value": 5,
+      "diameter": 25000,
+      "thickness": 1800,
+      "mass": 6000
+    },
+    {
+      "label": "2₽",
+      "value": 2,
+      "diameter": 23000,
+      "thickness": 1800,
+      "mass": 5000
+    },
+    {
+      "label": "1₽",
+      "value": 1,
+      "diameter": 20500,
+      "thickness": 1500,
+      "mass": 3000
+    },
+    {
+      "label": "50 kopecks",
+      "value": 0.5,
+      "denomination": 50,
+      "diameter": 19500,
+      "thickness": 1500,
+      "mass": 2750
+    },
+    {
+      "label": "10 kopecks",
+      "value": 0.1,
+      "denomination": 10,
+      "diameter": 17500,
+      "thickness": 1250,
+      "mass": 1850
+    },
+    {
+      "label": "2 kopecks",
+      "value": 0.02,
+      "denomination": 2,
+      "diameter": 18500,
+      "thickness": 1450,
+      "mass": 2600
+    },
+    {
+      "label": "1 kopeck",
+      "value": 0.01,
+      "denomination": 1,
+      "diameter": 15500,
+      "thickness": 1250,
+      "mass": 1500
+    }
+  ]
+}
