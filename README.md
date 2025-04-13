@@ -1,5 +1,7 @@
 # CoinCalc
 
+[![Test and Lint](https://github.com/kefir500/coincalc/actions/workflows/test-and-lint.yml/badge.svg?event=push)](https://github.com/kefir500/coincalc/actions/workflows/test-and-lint.yml)
+
 🪙🪙🪙
 
 Ever wondered how tall a tower of coins would be

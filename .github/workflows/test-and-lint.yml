@@ -3,14 +3,14 @@ on:
   push:
   pull_request:
 jobs:
-  test:
+  test-and-lint:
     runs-on: ubuntu-latest
     steps:
       - name: 📥 Checkout Repository
         uses: actions/checkout@v4
-      - name: Install Dependencies
+      - name: 📦 Install Dependencies
         run: npm ci
-      - name: 📦 Build Project
+      - name: 🛠️ Build Project
         run: npm run build
       - name: 🧪 Run Unit Tests
         run: npm run test:unit
