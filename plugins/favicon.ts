@@ -10,9 +10,12 @@ export default function faviconPlugin(source: string, options: FaviconOptions): 
 
     async generateBundle() {
       const result = await favicons(source, options);
-      tags = result.html.filter((tag) => !tag.includes('mobile-web-app'));
+      tags = result.html.filter((tag) =>
+        !tag.includes('mobile-web-app') &&
+        !tag.includes('webmanifest')
+      );
 
-      [...result.images, ...result.files].forEach((asset) => {
+      result.images.forEach((asset) => {
         this.emitFile({
           type: 'asset',
           fileName: asset.name,

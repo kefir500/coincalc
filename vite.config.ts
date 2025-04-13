@@ -1,6 +1,7 @@
 import { fileURLToPath, URL } from 'node:url';
 import { defineConfig } from 'vite';
 import vue from '@vitejs/plugin-vue';
+import { VitePWA } from 'vite-plugin-pwa';
 import vueDevTools from 'vite-plugin-vue-devtools';
 import tailwindcss from '@tailwindcss/vite';
 import faviconPlugin from './plugins/favicon';
@@ -14,7 +15,6 @@ export default defineConfig({
     tailwindcss(),
     faviconPlugin('src/assets/logo.svg', {
       appName: 'CoinCalc',
-      appDescription: undefined,
       path: '/coincalc/',
       background: '#f4eab4',
       theme_color: '#f4eab4',
@@ -35,10 +35,33 @@ export default defineConfig({
         windows: false,
         yandex: false,
       },
-      dir: undefined,
-      lang: undefined,
-      orientation: undefined,
-      start_url: undefined,
+    }),
+    VitePWA({
+      registerType: 'autoUpdate',
+      manifest: {
+        name: 'CoinCalc',
+        short_name: 'CoinCalc',
+        description: 'Calculate coin stack height, weight, and more',
+        theme_color: '#f4eab4',
+        background_color: '#f7f7f0',
+        icons: [
+          {
+            src: 'android-chrome-192x192.png',
+            sizes: '192x192',
+            type: 'image/png'
+          },
+          {
+            src: 'android-chrome-512x512.png',
+            sizes: '512x512',
+            type: 'image/png'
+          },
+          {
+            src: 'apple-touch-icon-180x180.png',
+            sizes: '180x180',
+            type: 'image/png'
+          },
+        ],
+      },
     }),
   ],
   resolve: {
