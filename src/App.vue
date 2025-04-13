@@ -79,16 +79,16 @@ function reset() {
             <CCPanel v-if="totalHeight" heading="Height" :value="totalHeight" :icon="IconHeight" :title="totalHeight.toString(false)">
               <CCRuler
                 :current="totalHeight"
-                :start="closestHeights.left && { label: closestHeights.left.title, measurement: closestHeights.left.height }"
-                :end="closestHeights.right && { label: closestHeights.right.title, measurement: closestHeights.right.height }"
+                :start="closestHeights.left && { label: closestHeights.left.title, measurement: closestHeights.left.height, url: closestHeights.left.about }"
+                :end="closestHeights.right && { label: closestHeights.right.title, measurement: closestHeights.right.height, url: closestHeights.right.about }"
               />
             </CCPanel>
 
             <CCPanel v-if="totalMass" heading="Mass" :value="totalMass" :icon="IconMass" :title="totalMass.toString(false)">
               <CCRuler
                 :current="totalMass"
-                :start="closestMasses.left && { label: closestMasses.left.title, measurement: closestMasses.left.mass }"
-                :end="closestMasses.right && { label: closestMasses.right.title, measurement: closestMasses.right.mass }"
+                :start="closestMasses.left && { label: closestMasses.left.title, measurement: closestMasses.left.mass, url: closestMasses.left.about }"
+                :end="closestMasses.right && { label: closestMasses.right.title, measurement: closestMasses.right.mass, url: closestMasses.right.about }"
               />
             </CCPanel>
           </div>

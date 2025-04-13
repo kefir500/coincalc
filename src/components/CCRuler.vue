@@ -4,8 +4,9 @@ import { getProgress } from '@/helpers';
 import type { Measurement } from '@/types/measurement';
 
 export interface IRulerPoint {
-  label: string;
   measurement: Measurement;
+  label: string;
+  url: string;
 }
 
 const props = defineProps<{
@@ -36,7 +37,9 @@ const offset = computed(() =>
       leave-active-class="duration-500 absolute"
       leave-to-class="opacity-0">
         <p :key="start?.measurement.value.toString(36)" class="text-sm/5">
-          {{ start?.label ?? '−∞' }}<br>
+          <a v-if="start" :href="start.url" target="_blank">{{ start.label }}</a>
+          <span v-else>−∞</span>
+          <br>
           <span v-if="start" class="text-xs opacity-50">{{ start.measurement }}</span>
         </p>
     </Transition>
@@ -47,7 +50,9 @@ const offset = computed(() =>
       leave-active-class="duration-500 absolute right-0"
       leave-to-class="opacity-0">
         <p :key="end?.measurement.value.toString(36)" class="text-sm/5 text-right">
-          {{ end?.label ?? '∞' }}<br>
+          <a v-if="end" :href="end.url" target="_blank">{{ end.label }}</a>
+          <span v-else>∞</span>
+          <br>
           <span v-if="end" class="text-xs opacity-50">{{ end.measurement }}</span>
         </p>
     </Transition>
