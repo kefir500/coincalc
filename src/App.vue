@@ -3,6 +3,7 @@ import { ref, computed } from 'vue';
 import CCPanel from '@/components/CCPanel.vue';
 import CCRuler from '@/components/CCRuler.vue';
 import CCSelect from '@/components/CCSelect.vue';
+import GitHubStar from '@/components/GitHubStar.vue';
 import { IconCount, IconHeight, IconMass, IconVolume } from '@/components/icons';
 import { currencies, objects } from '@/data';
 import { findClosestValues } from '@/helpers';
@@ -32,9 +33,7 @@ function reset() {
 
 <template>
   <main class="lg:grid grid-cols-3 gap-16 items-center m-auto min-h-screen lg:max-w-6xl px-4 py-16">
-    <a href="https://github.com/kefir500/coincalc" target="_blank" class="absolute top-0 right-0">
-      <img loading="lazy" decoding="async" width="149" height="149" src="https://github.blog/wp-content/uploads/2008/12/forkme_right_darkblue_121621.png" alt="Fork me on GitHub">
-    </a>
+    <GitHubStar repo-url="https://github.com/kefir500/coincalc" class="absolute top-4 right-4" />
 
     <section class="max-w-lg mx-auto my-8 text-center lg:text-left">
       <h1 class="text-4xl font-semibold uppercase mb-4">
